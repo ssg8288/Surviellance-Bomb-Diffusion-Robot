@@ -24,7 +24,7 @@ In the earlier project I incorporated it with bluetooth based control and maneuv
 
 >>Next upgrade which I am looking for in it is the incorporation of GPS system so that we can locate it from a place and keep a track of it from anywhere.
 
->>Also, I'm Open to other upgradations in my project if you are willing to contribute in this open source project so, do make your presence my contributing in it  ☺!!
+>>Also, I'm Open to other upgradations in my project if you are willing to contribute in this open source project so, do mark your presence my contributing in it  ☺!!
 
 
 
