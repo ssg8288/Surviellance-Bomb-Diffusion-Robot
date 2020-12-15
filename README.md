@@ -6,7 +6,7 @@
 																																			
 																																			
 																																			
-The project is basically aimed for surveillance an bomb diffusion activity without the involvement of a human physically this will ensure saving lives of living beings and cause less losses I have published my research paper in the journal in IRJET Volume 7 Issue 8 S.no. 257.
+The project is basically aimed for surveillance an bomb diffusion activity without the involvement of a human physically this will ensure saving lives of living beings and cause less losses I have published my research paper in the journal in IRJET Volume 7 Issue 8 S.no. 257 [Link](https://irjet.net/archives/V7/i8/IRJET-V7I8257.pdf).
 
 This project was made after getting inspired from the rocker bogie model which was first used in the mars curiosity rover. For mars exploration and investigation as well as different surviellance spy robots.
 
