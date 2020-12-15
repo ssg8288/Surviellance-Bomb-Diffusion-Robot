@@ -2,7 +2,7 @@
 
 ************************************************************************DEV_Script_WOC***************************************************************************
 
-<h3> <U>Aim of the Project </U></h3>
+<h3> <u>Aim of the Project </u></h3>
 The project is basically aimed for surveillance an bomb diffusion activity without the involvement of a human physically this will ensure saving lives of living beings and cause less losses I have published my research paper in the journal in IRJET Volume 7 Issue 8 S.no. 257.
 
 
