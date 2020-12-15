@@ -1,8 +1,8 @@
 <h1># Surviellance-and-Bomb-Diffusion-Robot-with-Rocker-Bogie-Mechanism-Two-way-talk-feature-and-Human-Hang Gesture Controlled Robotic Arm with Gsm based navigation and Gps monitoring system</h1>
 
-DEV_Script_WOC_2020
+<p align="center">DEV_Script_WOC_2020 </p>
 
-<h3> <b> Aim of the Project </b> </h3>
+<p align="center"><h3> <b> Aim of the Project </b> </h3> </p>
 																																			
 																																			
 																																			
