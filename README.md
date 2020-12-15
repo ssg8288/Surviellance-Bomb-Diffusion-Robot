@@ -2,7 +2,7 @@
 
 <p align="center">DEV_Script_WOC_2020 </p>
 
-<p align="center"> <h3> <b> Aim of the Project </b> </h3> </p>
+<h3> <b> Aim of the Project </b> </h3>
 																																			
 																																			
 																																			
@@ -22,5 +22,8 @@ In the earlier project I incorporated it with bluetooth based control and maneuv
 
 >>Also, I'm Open to other upgradations in my project if you are willing to contribute in this open source project so do make your presence my contributing in it !!
 
-
+<p align="center">
+  <img src="D:\minor project\IMG_9407.jpg" width="350" title="hover text">
+  <img src="D:\minor project\rbm.jpg" width="350" alt="accessibility text">
+</p>
 
