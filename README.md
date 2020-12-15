@@ -11,8 +11,8 @@ The project is basically aimed for surveillance an bomb diffusion activity witho
 This project was made after getting inspired from the rocker bogie model which was first used in the mars curiosity rover. For mars exploration and investigation as well as different surviellance spy robots.
 
 [The Crawler repo is](https://github.com/ssg8288/Crawler-Code/commit/f81828792bbe0d68c39693d93508aa4cc87c85a0).
-[The Human-Hand-Gesture-Control-ARM_tx](https://github.com/ssg8288/Human-Hand-Gesture-Control-ARM-/blob/main/hand_tx_code.ino)
-[The Human-Hand-Gesture-Control-ARM_rx](https://github.com/ssg8288/Human-Hand-Gesture-Control-ARM-/blob/main/hand_Rx_code.ino)
+|| [The Human-Hand-Gesture-Control-ARM_tx](https://github.com/ssg8288/Human-Hand-Gesture-Control-ARM-/blob/main/hand_tx_code.ino)
+|| [The Human-Hand-Gesture-Control-ARM_rx](https://github.com/ssg8288/Human-Hand-Gesture-Control-ARM-/blob/main/hand_Rx_code.ino)
 
 
 
