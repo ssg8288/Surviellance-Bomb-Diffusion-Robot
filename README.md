@@ -19,6 +19,7 @@ This project was made after getting inspired from the rocker bogie model which w
 
 
 In the earlier project I incorporated it with bluetooth based control and maneuvering operations which helped it control over ground at a range of 429 feets approx on the first trial. 
+The range of the arm is around 800m to 1 km, and that of camera works over wifi on 2.5 Ghz band frequency.
 
 >> Now, I want to change the control system with gsm based so that the crawler can be controlled wirelessly and globally just by sitting from any part of the world without any limitations.
 
