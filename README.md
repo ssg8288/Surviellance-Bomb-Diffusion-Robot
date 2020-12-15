@@ -2,7 +2,7 @@
 
 <p align="center">DEV_Script_WOC_2020 </p>
 
-<p align="center"><h3> <b> Aim of the Project </b> </h3> </p>
+<p align="center"> <h3> <b> Aim of the Project </b> </h3> </p>
 																																			
 																																			
 																																			
