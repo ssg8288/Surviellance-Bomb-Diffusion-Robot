@@ -1,6 +1,6 @@
 <h1> # Surviellance-and-Bomb-Diffusion-Robot-with-Rocker-Bogie-Mechanism-Two-way-talk-feature-and-Human-Hang Gesture Controlled Robotic Arm with Gsm based navigation and Gps monitoring system </h1>
 
-<p align="center">DEV_Script_WOC_2020 </p>
+<p align="center"> DEV_Script_WOC_2020 </p>
 
 <h3> <b> Aim of the Project </b> </h3>
 																																			
@@ -23,11 +23,18 @@ The range of the arm is around 800m to 1 km and used a sensor NRF24L01 which is 
 
 <h3> <b> Changes Required </b> </h3>
 
->> Now, I want to replace the control system with a gsm based control or a wifi enabled system so that the crawler can be controlled wirelessly and globally just by sitting from any part of the world without any limitations.
+>>Now, I want to replace the control system with a gsm based control or a wifi enabled system so that the crawler can be controlled wirelessly and globally just by sitting from any part of the world without any limitations.
 
 >>Next upgrade which I am looking for in it, is the incorporation of GPS system so that we can get accurate pin point locations and locate it from a place and keep a track of it from anywhere.
 
 >>Also, I'm Open to other upgradations in my project.
+
+
+<h3> <b> Where Will the Changes Head Us To </b> </h3>
+
+>>Control of the robot can be done without any limitations and serve a major purpose in military for surveillance and bomb diffusion purpose.
+
+>>Location can easily be tracked through GPS and satellites to get the location updates which was not present in its predecessor.
 
 <n> If you are willing to contribute in this open source project so, do mark your presence by contributing in it  ☺!! </n>
 
