@@ -11,7 +11,7 @@
 
 ---
 
-* NRF24 Wiring:
+>>NRF24 Wiring:
 
 * VCC - 3.3V (or use an adapter for 5V, like I did)
 
@@ -31,7 +31,7 @@
 
 ---
 
-* MPU6050 Wiring:
+>>MPU6050 Wiring:
 
 * VCC - 5V
 
@@ -59,7 +59,7 @@
 
 ---
 
-* NRF24 Wiring:
+>>NRF24 Wiring:
 
 * VCC - 3.3V (or use an adapter for 5V, like I did)
 
