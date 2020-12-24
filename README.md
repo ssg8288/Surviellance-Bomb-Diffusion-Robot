@@ -16,16 +16,20 @@ This project was made after getting inspired from the rocker bogie model which w
 
 
 
+<h3> <b> Earlier Now </b> </h3>
 
+In the earlier project I incorporated it with bluetooth based control using module HC-05 and maneuvering operations which helped it control over ground at a range of 429 feets approx on the first trial. 
+The range of the arm is around 800m to 1 km and used a sensor NRF24L01 which is a transreciever circuit, MPU 6050 which is a three axis gyrometer, Arduino pro mini, and that of camera I used a Mi 360 degree which works over wifi on 2.5 Ghz band frequency.
 
-In the earlier project I incorporated it with bluetooth based control and maneuvering operations which helped it control over ground at a range of 429 feets approx on the first trial. 
-The range of the arm is around 800m to 1 km, and that of camera works over wifi on 2.5 Ghz band frequency.
+<h3> <b> Changes Required </b> </h3>
 
->> Now, I want to change the control system with gsm based so that the crawler can be controlled wirelessly and globally just by sitting from any part of the world without any limitations.
+>> Now, I want to replace the control system with a gsm based control or a wifi enabled system so that the crawler can be controlled wirelessly and globally just by sitting from any part of the world without any limitations.
 
->>Next upgrade which I am looking for in it is the incorporation of GPS system so that we can locate it from a place and keep a track of it from anywhere.
+>>Next upgrade which I am looking for in it, is the incorporation of GPS system so that we can get accurate pin point locations and locate it from a place and keep a track of it from anywhere.
 
->>Also, I'm Open to other upgradations in my project if you are willing to contribute in this open source project so, do mark your presence my contributing in it  ☺!!
+>>Also, I'm Open to other upgradations in my project.
+
+<n> If you are willing to contribute in this open source project so, do mark your presence my contributing in it  ☺!! </n>
 
 
 
