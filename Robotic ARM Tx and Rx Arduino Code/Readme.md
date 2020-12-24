@@ -7,7 +7,7 @@
 
 
 
-* Control A Robotic Arm Wirelessly Using a Glove With Flex and Motion Sensors
+<p align="center"> Control A Robotic Arm Wirelessly Using a Glove With Flex and Motion Sensors </p>
 
 ---
 
