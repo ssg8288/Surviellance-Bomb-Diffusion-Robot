@@ -28,6 +28,8 @@ Keep in mind this project is based on Arduino only.
 
 >>Next upgrade which I am looking for in it, is the incorporation of GPS system so that we can get accurate pin point locations and locate it from a place and keep a track of it from anywhere.
 
+>>Wifi or gsm controlled robotic arm
+
 >>Also, I'm Open to other upgradations in my project 👀 .
 
 ---
