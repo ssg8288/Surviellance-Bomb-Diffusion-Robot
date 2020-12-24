@@ -23,10 +23,10 @@ A servo motor is an electrical device which can push or rotate an object with gr
 
 #	Motor
 
-Base Motor RPM: 18000
-Operating Voltage: 6-18 v
-Rated Voltage: 12 V
-Rated Torque: 56.1 N-cm
-Stall Torque: 350 N-cm
-Gearbox Dimensions: 25×37 (LxW) mm
-RPM: 200 rpm
+* Base Motor RPM: 18000
+* Operating Voltage: 6-18 v
+* Rated Voltage: 12 V
+* Rated Torque: 56.1 N-cm
+* Stall Torque: 350 N-cm
+* Gearbox Dimensions: 25×37 (LxW) mm
+* RPM: 200 rpm
