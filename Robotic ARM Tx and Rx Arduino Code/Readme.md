@@ -44,3 +44,31 @@
 * INT - D2
 
 Make Sure you used these following header files in your arduino code.
+
+>>SPI.h
+
+>>RH_NRF24.h
+
+>>"I2Cdev.h"
+
+>>"MPU6050_6Axis_MotionApps20.h"
+
+>>I2CDEV_IMPLEMENTATION == I2CDEV_ARDUINO_WIRE
+
+>>"Wire.h"
+
+---
+
+<h3> Circuit Diagram </h3>
+
+<h5> ARM Tx </h5>
+
+![sensor](https://user-images.githubusercontent.com/43617730/103088166-f42d5f00-460f-11eb-8627-39b03dfb8256.jpg)
+
+<h5> ARM Rx </h5>
+
+![servo](https://user-images.githubusercontent.com/43617730/103088216-2212a380-4610-11eb-8c9d-3dc17bea8958.jpg)
+
+<h3> Block Diagram </h3>
+
+![bdh](https://user-images.githubusercontent.com/43617730/103088430-ceed2080-4610-11eb-91cc-633919adacb0.jpg)
