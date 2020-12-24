@@ -52,4 +52,10 @@ Arduino Mega 2560 R3 Sensor Shield V2.0 has an advantage of a PCB Immersion Gold
     Plug it easier to set up a variety of commonly used module interface
 
 # ESP8266-01 
+
 It's used as a 'WiFi modem'. It receives signals from the control interface to be performed by the Arduino
+
+# GSM SIM800 module
+
+This is used in real time tracking of the robot which gives us the location.
+
