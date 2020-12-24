@@ -2,7 +2,7 @@
 
 ---
 
-<p align="center"> Controller/Transmitter Wiring </p>
+<p align="center"> <b> Controller/Transmitter Wiring </b> </p>
 
 
 
@@ -45,7 +45,7 @@
 
 ---
 
-<p align="center"> Robotic Arm Wiring: </p>
+<p align="center"> <b> Robotic Arm Wiring: </b> </p>
 
 * All VCC - 5V (separate from the Arduino power)
 
