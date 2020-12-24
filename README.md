@@ -3,7 +3,7 @@
 <p align="center"> DEV_Script_WOC_2020 </p>
 
 <h3> <b> Aim of the Project 🎯 </b> </h3>
-																																																																				
+
 The project is basically aimed for surveillance an bomb diffusion activity without the involvement of a human physically this will ensure saving lives of living beings and cause less losses I have published my research paper in the journal in IRJET Volume 7 Issue 8 S.no. 257 [Link](https://irjet.net/archives/V7/i8/IRJET-V7I8257.pdf).
 
 This project was made after getting inspired from the rocker bogie model which was first used in the mars curiosity rover by NASA. For mars exploration and investigation as well as different surviellance spy robots.
@@ -16,7 +16,7 @@ This project was made after getting inspired from the rocker bogie model which w
 
 <h3> <b> Earlier Now 💬 </b> </h3>
 
-In the earlier project I incorporated it with bluetooth based control using module HC-05 and maneuvering operations which helped it control over ground at a range of 429 feets approx on the first trial. 
+In the earlier project I incorporated it with bluetooth based control using module HC-05 and maneuvering operations which helped it control over ground at a range of 429 feets approx on the first trial.
 The range of the arm is around 800m to 1 km and used a sensor NRF24L01 which is a transreciever circuit, MPU 6050 which is a three axis gyrometer, Arduino pro mini, and that of camera I used a Mi 360 degree which works over wifi on 2.5 Ghz band frequency.
 Keep in mind this project is based on Arduino only.
 
@@ -42,9 +42,12 @@ Keep in mind this project is based on Arduino only.
 
 ---
 
+<h3> <b> Overall Architecture Of What Was Done Earlier </b> </h3>
+
+![Archietecture](https://user-images.githubusercontent.com/43617730/103100636-84cc6500-4639-11eb-9dd5-75b290de5509.jpg)
+
+<h3> <b> Overall Architecture Of What Has To Be Done Now </b> </h3>
+
+
+
 <n> If you are willing to contribute in this open source project so, do mark your presence by contributing in it  ☺!! </n>
-
-
-
-
-
