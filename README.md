@@ -50,6 +50,7 @@ Keep in mind this project is based on Arduino only.
 
 <h3> <b> Overall Architecture Of What Has To Be Done Now </b> </h3>
 
+will soon be updated...
 
 
 <n> If you are willing to contribute in this open source project so, do mark your presence by contributing in it  ☺!! </n>
