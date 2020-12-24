@@ -108,3 +108,5 @@
 <h3> Block Diagram </h3>
 
 ![bdh](https://user-images.githubusercontent.com/43617730/103088430-ceed2080-4610-11eb-91cc-633919adacb0.jpg)
+
+<n> Would require your contribution for this project and turning this up into a Internet controlled arm </n>
