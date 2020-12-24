@@ -18,7 +18,8 @@ This project was made after getting inspired from the rocker bogie model which w
 
 In the earlier project I incorporated it with bluetooth based control using module HC-05 and maneuvering operations which helped it control over ground at a range of 429 feets approx on the first trial. 
 The range of the arm is around 800m to 1 km and used a sensor NRF24L01 which is a transreciever circuit, MPU 6050 which is a three axis gyrometer, Arduino pro mini, and that of camera I used a Mi 360 degree which works over wifi on 2.5 Ghz band frequency.
-Keep in mind this project is based on Arduino only !!!
+Keep in mind this project is based on Arduino only.
+
 ---
 
 <h3> <b> Changes Required ✍ </b> </h3>
