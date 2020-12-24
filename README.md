@@ -1,4 +1,4 @@
-<h1> # Surviellance-and-Bomb-Diffusion-Robot-with-Rocker-Bogie-Mechanism-Two-way-talk-feature-and-Human-Hang Gesture Controlled Robotic Arm with Gsm based navigation and Gps monitoring system </h1>
+<h1> # Surviellance-and-Bomb-Diffusion-Robot-with-Rocker-Bogie-Mechanism-Two-way-talk-feature-and-Human-Hang Gesture Controlled Robotic Arm with Internet or gsm based navigation and Gps monitoring system </h1>
 
 <p align="center"> DEV_Script_WOC_2020 </p>
 
@@ -24,11 +24,11 @@ Keep in mind this project is based on Arduino only.
 
 <h3> <b> Changes Required ✍ </b> </h3>
 
->>Now, I want to replace the control system with a gsm based control or a wifi enabled system so that the crawler can be controlled wirelessly and globally just by sitting from any part of the world without any limitations.
+>>Now, I want to replace the control system with a Internet based control or a wifi enabled system so that the crawler can be controlled wirelessly and globally just by sitting from any part of the world without any limitations.
 
 >>Next upgrade which I am looking for in it, is the incorporation of GPS system so that we can get accurate pin point locations and locate it from a place and keep a track of it from anywhere.
 
->>Wifi or gsm controlled robotic arm
+>>Internet controlled robotic arm
 
 >>Also, I'm Open to other upgradations in my project 👀 .
 
