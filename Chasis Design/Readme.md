@@ -29,3 +29,12 @@ We made it using upvc you can also use the same material for its structural maki
 13 cm * 4 pieces||
 15 cm * 2 pieces||
 18 cm * 2 pieces
+
+---
+
+<h2> Assembeling Together to its Final Form</h2>
+
+
+![WhatsApp Image 2020-02-09 at 8 43 06 PM](https://user-images.githubusercontent.com/43617730/103089952-a156a600-4615-11eb-9e2a-196b7f668882.jpeg)
+
+![WhatsApp Image 2020-02-01 at 8 38 55 PM](https://user-images.githubusercontent.com/43617730/103089954-a3b90000-4615-11eb-84b8-b68fbc41ce31.jpeg)
