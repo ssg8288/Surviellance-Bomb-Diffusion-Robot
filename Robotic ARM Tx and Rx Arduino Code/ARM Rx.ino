@@ -1,7 +1,3 @@
-
-
-
-
 /*Wireless Hand Gesture Robotic Arm
 
 * Receiver Code
