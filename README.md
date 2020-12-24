@@ -45,7 +45,7 @@ Keep in mind this project is based on Arduino only.
 <h3> <b> Overall Architecture Of What Was Done Earlier </b> </h3>
 
 <p align="center">
-![Archietecture](https://user-images.githubusercontent.com/43617730/103100636-84cc6500-4639-11eb-9dd5-75b290de5509.jpg)
+<img src="https://user-images.githubusercontent.com/43617730/103100636-84cc6500-4639-11eb-9dd5-75b290de5509.jpg" alt="Archietecture"/>
 </p>
 
 <h3> <b> Overall Architecture Of What Has To Be Done Now </b> </h3>
