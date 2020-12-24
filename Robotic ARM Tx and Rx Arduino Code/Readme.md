@@ -2,7 +2,7 @@
 
 ---
 
-* Controller/Transmitter Code
+<p align="center"> Controller/Transmitter Code </p>
 
 
 
