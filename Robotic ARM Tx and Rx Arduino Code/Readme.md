@@ -2,7 +2,7 @@
 
 ---
 
-<p align="center"> Controller/Transmitter Code </p>
+<p align="center"> Controller/Transmitter Wiring </p>
 
 
 
@@ -42,6 +42,42 @@
 * SCL - A5
 
 * INT - D2
+
+---
+
+<p align="center"> Robotic Arm Wiring: </p>
+
+* All VCC - 5V (separate from the Arduino power)
+
+* All GND - GND (power source GND and Arduino GND should be connected)
+
+* Base Servo Control - D3
+
+* Arm Extend Control - D6 and D9 (had to combine because of DOF of controller and wireless data constraints)
+
+* Grip Control - D5
+
+---
+
+* NRF24 Wiring:
+
+* VCC - 3.3V (or use an adapter for 5V, like I did)
+
+* GND - GND
+
+* CE - D8
+
+* CSN - D10
+
+* SCK - D13
+
+* MOSI - D11
+
+* MISO - D12
+
+* IRQ - N/C
+
+---
 
 Make Sure you used these following header files in your arduino code.
 
