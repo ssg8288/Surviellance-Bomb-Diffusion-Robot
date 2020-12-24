@@ -20,9 +20,9 @@ We made it using upvc you can also use the same material for its structural maki
 
 ![pd](https://user-images.githubusercontent.com/43617730/103089478-0ad5b500-4614-11eb-949c-5a492b9908a1.png)
 
-5 cm * 2 pieces
-9 cm * 2 pieces
-11 cm * 2 pieces
-13 cm * 4 pieces
-15 cm * 2 pieces
+5 cm * 2 pieces ||
+9 cm * 2 pieces ||
+11 cm * 2 pieces ||
+13 cm * 4 pieces ||
+15 cm * 2 pieces ||
 18 cm * 2 pieces
