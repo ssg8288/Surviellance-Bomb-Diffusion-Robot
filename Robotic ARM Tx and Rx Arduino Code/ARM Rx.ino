@@ -1,139 +1,105 @@
+
+
+
+
+/*Wireless Hand Gesture Robotic Arm
+
+* Receiver Code
+
+
+*
+
+* Control A Robotic Arm Wirelessly Using a Glove With Flex and Motion Sensors
+
+*
+
+* Robotic Arm Wiring:
+
+* All VCC - 5V (separate from the Arduino power)
+
+* All GND - GND (power source GND and Arduino GND should be connected)
+
+* Base Servo Control - D3
+
+* Arm Extend Control - D6 and D9 (had to combine because of DOF of controller and wireless data constraints)
+
+* Grip Control - D5
+
+*
+
+* NRF24 Wiring:
+
+* VCC - 3.3V (or use an adapter for 5V, like I did)
+
+* GND - GND
+
+* CE - D8
+
+* CSN - D10
+
+* SCK - D13
+
+* MOSI - D11
+
+* MISO - D12
+
+* IRQ - N/C
+
+*/
+
 #include <SPI.h>
 
 #include <RH_NRF24.h>
 
-#include "I2Cdev.h"
-
-#include "MPU6050_6Axis_MotionApps20.h"
 
 
-#if I2CDEV_IMPLEMENTATION == I2CDEV_ARDUINO_WIRE
+int servoBase = 3;
 
-#include "Wire.h"
+int servoGrip = 5;
 
-#endif
+int servoExt1 = 6;
+
+int servoExt2 = 9;
 
 
-
-MPU6050 mpu;
 
 RH_NRF24 nrf24;
 
-String inputString = "";
+int yaw, roll, grip;
 
-String encodedString = "";
+double posBase, posExt, posGrip;
 
-boolean stringComplete = false;
-
-
-
-bool dmpReady = false; // set true if DMP init was successful
-
-uint8_t mpuIntStatus; // holds actual interrupt status byte from MPU
-
-uint8_t devStatus; // return status after each device operation (0 = success, !0 = error)
-
-uint16_t packetSize; // expected DMP packet size (default is 42 bytes)
-
-uint16_t fifoCount; // count of all bytes currently in FIFO
-
-uint8_t fifoBuffer[64]; // FIFO storage buffer
+String receivedString;
 
 
-
-// orientation/motion vars
-
-Quaternion q; // [w, x, y, z] quaternion container
-
-VectorFloat gravity; // [x, y, z] gravity vector
-
-float ypr[3]; // [yaw, pitch, roll] yaw/pitch/roll container and gravity vector
-
-
-
-double movingAngleOffset = 0.1;
-
-
-
-double yawD, rollD, flexValD;
-
-int yaw, roll, flexVal;
-
-
-
-volatile bool mpuInterrupt = false; // indicates whether MPU interrupt pin has gone high
-
-void dmpDataReady()
-
-{
-
-mpuInterrupt = true;
-
-}
 
 void setup()
 
 {
 
-Serial.begin(115200);
+pinMode(servoBase, OUTPUT);
 
-#if I2CDEV_IMPLEMENTATION == I2CDEV_ARDUINO_WIRE
+pinMode(servoGrip, OUTPUT);
 
-Wire.begin();
+pinMode(servoExt1, OUTPUT);
 
-TWBR = 24; // 400kHz I2C clock (200kHz if CPU is 8MHz)
-
-#elif I2CDEV_IMPLEMENTATION == I2CDEV_BUILTIN_FASTWIRE
-
-Fastwire::setup(400, true);
-
-#endif
-
-mpu.initialize();
-
-mpu.testConnection();
-
-devStatus = mpu.dmpInitialize();
+pinMode(servoExt2, OUTPUT);
 
 
 
-mpu.setXGyroOffset(220);
+servoWrite(1500, servoBase);
 
-mpu.setYGyroOffset(76);
+servoWrite(1000, servoGrip);
 
-mpu.setZGyroOffset(-85);
+servoWrite(1500, servoExt1);
 
-mpu.setZAccelOffset(1788);
+servoWrite(1500, servoExt2);
 
 
 
-if (devStatus == 0)
 
-{
 
-mpu.setDMPEnabled(true);
-
-attachInterrupt(0, dmpDataReady, RISING);
-
-mpuIntStatus = mpu.getIntStatus();
-
-dmpReady = true;
-
-packetSize = mpu.dmpGetFIFOPacketSize();
-
-}
-
-else
-
-{
-
-Serial.print(F("DMP Initialization failed (code "));
-
-Serial.print(devStatus);
-
-Serial.println(F(")"));
-
-}
+Serial.begin(9600);
 
 if (!nrf24.init())
 
@@ -151,84 +117,82 @@ Serial.println("setRF failed");
 
 
 
-
-
 void loop()
 
 {
 
-if (!dmpReady) return;
-
-while (!mpuInterrupt && fifoCount < packetSize)
+if (nrf24.available())
 
 {
 
+uint8_t buf[RH_NRF24_MAX_MESSAGE_LEN];
 
+uint8_t len = sizeof(buf);
 
-}
+if (nrf24.recv(buf, &len)){
 
-mpuInterrupt = false;
+receivedString = (char*)buf;
 
-mpuIntStatus = mpu.getIntStatus();
+receivedString.remove(6);
 
-fifoCount = mpu.getFIFOCount();
+//Serial.println(receivedString);
 
-if ((mpuIntStatus & 0x10) || fifoCount == 1024)
+yaw = receivedString.substring(0,2).toInt();
 
-{
+roll = receivedString.substring(2,4).toInt();
 
-mpu.resetFIFO();
+grip = receivedString.substring(4,5).toInt();
 
-Serial.println(F("FIFO overflow!"));
+Serial.print(yaw);
 
-}
+Serial.print(" ");
 
-else if (mpuIntStatus & 0x02)
+Serial.print(roll);
 
-{
+Serial.print(" ");
 
-while (fifoCount < packetSize) fifoCount = mpu.getFIFOCount();
+Serial.println(grip);
 
-mpu.getFIFOBytes(fifoBuffer, packetSize);
+posBase = roll*8.33333*2;
 
-fifoCount -= packetSize;
+posExt = yaw*8.333333*2;
 
-flexValD = analogRead(A0);
+servoWrite(posBase, servoBase);
 
-mpu.dmpGetQuaternion(&q, fifoBuffer);
+servoWrite(posExt, servoExt2);
 
-mpu.dmpGetGravity(&gravity, &q);
+servoWrite(posExt, servoExt1);
 
-mpu.dmpGetYawPitchRoll(ypr, &q, &gravity);
+if(grip == 1){
 
-yawD = ypr[1] * 180/M_PI + 180;
-
-rollD = ypr[2] * 180/M_PI + 180;
-
-yaw = (int)yawD / 3;
-
-roll = (int)rollD /3;
-
-if(flexValD > 600){
-
-flexVal = 0;
+posGrip = 1000;
 
 }else{
 
-flexVal = 1;
+posGrip = 2000;
 
 }
 
-inputString = (String)yaw + (String)roll + (String)flexVal;
-
-Serial.println(inputString);
-
-nrf24.send((const unsigned char *)inputString.c_str(),sizeof(inputString));
-
-nrf24.waitPacketSent();
+servoWrite(posGrip, servoGrip);
 
 }
 
-delay(10);
+else{
+
+Serial.println("recv failed");
+
+}
+
+}
+
+}
+
+void servoWrite(double pulseWidth, int servo){
+
+digitalWrite(servo, HIGH);
+
+delayMicroseconds(pulseWidth);
+
+digitalWrite(servo, LOW);
 
 }
