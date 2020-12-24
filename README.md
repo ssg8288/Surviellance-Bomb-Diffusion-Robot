@@ -1,4 +1,4 @@
-<h1># Surviellance-and-Bomb-Diffusion-Robot-with-Rocker-Bogie-Mechanism-Two-way-talk-feature-and-Human-Hang Gesture Controlled Robotic Arm with Gsm based navigation and Gps monitoring system</h1>
+<h1> # Surviellance-and-Bomb-Diffusion-Robot-with-Rocker-Bogie-Mechanism-Two-way-talk-feature-and-Human-Hang Gesture Controlled Robotic Arm with Gsm based navigation and Gps monitoring system </h1>
 
 <p align="center">DEV_Script_WOC_2020 </p>
 
@@ -29,7 +29,7 @@ The range of the arm is around 800m to 1 km and used a sensor NRF24L01 which is 
 
 >>Also, I'm Open to other upgradations in my project.
 
-<n> If you are willing to contribute in this open source project so, do mark your presence my contributing in it  ☺!! </n>
+<n> If you are willing to contribute in this open source project so, do mark your presence by contributing in it  ☺!! </n>
 
 
 
