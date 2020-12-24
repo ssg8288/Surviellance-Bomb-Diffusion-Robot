@@ -9,7 +9,7 @@
 
 * Control A Robotic Arm Wirelessly Using a Glove With Flex and Motion Sensors
 
-
+---
 
 * NRF24 Wiring:
 
@@ -29,7 +29,7 @@
 
 * IRQ - N/C
 
-
+---
 
 * MPU6050 Wiring:
 
