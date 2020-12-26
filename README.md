@@ -69,7 +69,7 @@ Keep in mind this project is based on Arduino only.
    * Push them to the remote Repo.
    * Make a Pull Request.
     
-   Enjoy :-)
+   Enjoy :)
 
 
 
