@@ -49,7 +49,7 @@ Keep in mind this project is based on Arduino only.
   
 *  C++
   
-*  basic understanding of circuits 
+*  basic understanding of circuits and how arduino and different modules work
   
 *  Fritzing
 
