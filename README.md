@@ -69,7 +69,9 @@ Keep in mind this project is based on Arduino only.
 
 <h3> <b> Overall Architecture Of What Has To Be Done Now </b> </h3>
 
-will soon be updated...
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/43617730/103155499-92632580-47c6-11eb-8ea3-fb6ff95f12d6.png" alt="Upgraded Diagram"/>
+</p>
 
 <n> If you are willing to contribute in this open source project so, do mark your presence by contributing in it  ☺!! </n>
