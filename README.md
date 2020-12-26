@@ -46,6 +46,8 @@ Keep in mind this project is based on Arduino only.
 
 >>Location can easily be tracked through GPS and satellites to get the location updates which was not present in its predecessor.
 
+>>Also, will help us in decreasing the overall circuitry. 
+
 ---
 
 <h3> <b> Pre-Requisites for this project 👍 </b> </h3>
