@@ -16,7 +16,7 @@ This project was made after getting inspired from the rocker bogie model which w
 <h3> <b> Features of this project 🤩 </b> </h3>
 
 * Bomb Diffusion
-* Surviellance
+* Surveillance
 * Staircase Climbing
 * Two way talking
 ---
