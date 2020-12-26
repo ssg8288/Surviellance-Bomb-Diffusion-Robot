@@ -44,19 +44,15 @@ Keep in mind this project is based on Arduino only.
 
 <h3> <b> Pre-Requisites for this project  </b> </h3>
 
-<ul>
-  
-  <li>
-  Arduino IDE
-  
-  C++
-  
-  basic understanding of circuits 
-  
-  Fritzing
-  </li> 
 
-</ul>
+*  Arduino IDE
+  
+*  C++
+  
+*  basic understanding of circuits 
+  
+*  Fritzing
+
 
 
 
