@@ -57,7 +57,19 @@ Keep in mind this project is based on Arduino only.
 *  C++
 *  basic understanding of circuits and how arduino and different modules work
 *  Fritzing
+---
 
+<h3> <b> Contribution Guidelines </b> </h3>
+
+   * Fork the Repo.
+   * Clone it.
+   * Checkout a Branch.
+   * Add Features/ Make Changes.
+   * Commit Changes
+   * Push them to the remote Repo.
+   * Make a Pull Request.
+    
+   Enjoy :-)
 
 
 
