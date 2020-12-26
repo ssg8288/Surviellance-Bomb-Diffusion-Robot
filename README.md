@@ -13,7 +13,7 @@ This project was made after getting inspired from the rocker bogie model which w
 || [The Human-Hand-Gesture-Control-ARM_rx repo is](https://github.com/ssg8288/Human-Hand-Gesture-Control-ARM-/blob/main/hand_Rx_code.ino)
 
 ---
-<h3> <b> Features of this project </b> </h3>
+<h3> <b> Features of this project 🤩 </b> </h3>
 
 * Bomb Diffusion
 * Surviellance
@@ -48,15 +48,12 @@ Keep in mind this project is based on Arduino only.
 
 ---
 
-<h3> <b> Pre-Requisites for this project  </b> </h3>
+<h3> <b> Pre-Requisites for this project 👍 </b> </h3>
 
 
 *  Arduino IDE
-  
 *  C++
-  
 *  basic understanding of circuits and how arduino and different modules work
-  
 *  Fritzing
 
 
