@@ -13,7 +13,13 @@ This project was made after getting inspired from the rocker bogie model which w
 || [The Human-Hand-Gesture-Control-ARM_rx repo is](https://github.com/ssg8288/Human-Hand-Gesture-Control-ARM-/blob/main/hand_Rx_code.ino)
 
 ---
+<h3> <b> Features of this project </b> </h3>
 
+* Bomb Diffusion
+* Surviellance
+* Staircase Climbing
+* Two way talking
+---
 <h3> <b> Earlier Now 💬 </b> </h3>
 
 In the earlier project I incorporated it with bluetooth based control using module HC-05 and maneuvering operations which helped it control over ground at a range of 429 feets approx on the first trial.
