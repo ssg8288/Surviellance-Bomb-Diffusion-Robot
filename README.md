@@ -48,8 +48,11 @@ Keep in mind this project is based on Arduino only.
   
   <li>
   Arduino IDE
+  
   C++
+  
   basic understanding of circuits 
+  
   Fritzing
   </li> 
 
