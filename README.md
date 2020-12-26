@@ -53,7 +53,7 @@ Keep in mind this project is based on Arduino only.
 <h3> <b> Pre-Requisites for this project 👍 </b> </h3>
 
 
-*  Arduino IDE![](https://www.arduino.cc/reference/en/)
+*  Arduino IDE![Documentation](https://www.arduino.cc/reference/en/)
 *  C++
 *  basic understanding of circuits and how arduino and different modules work
 *  Fritzing
