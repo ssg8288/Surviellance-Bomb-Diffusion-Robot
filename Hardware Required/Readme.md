@@ -57,5 +57,5 @@ It's used as a 'WiFi modem'. It receives signals from the control interface to b
 
 # GSM SIM800 module
 
-This is used in real time tracking of the robot which gives us the location.
+This is used in real time tracking of the robot which gives us the location. ![Read](https://simcom.ee/modules/gsm-gprs/sim800/)
 
