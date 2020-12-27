@@ -30,11 +30,11 @@ Keep in mind this project is based on Arduino only.
 
 <h3> <b> Changes Required ✍ </b> </h3>
 
->>Now, I want to replace the control system with a Internet based control or a wifi enabled system so that the crawler can be controlled wirelessly and globally just by sitting from any part of the world without any limitations.
+>>Now, I want to replace the control system with a Internet based control or a wifi enabled system so that the crawler can be controlled wirelessly and globally just by sitting from any part of the world without any limitations & Documentation.
 
->>Next upgrade which I am looking for in it, is the incorporation of GPS system so that we can get accurate pin point locations and locate it from a place and keep a track of it from anywhere.
+>>Next upgrade which I am looking for in it, is the incorporation of GPS system so that we can get accurate pin point locations and locate it from a place and keep a track of it from anywhere & Documentation.
 
->>Internet controlled robotic arm
+>>Internet controlled robotic arm & Documentation
 
 >>Also, I'm Open to other upgradations in my project 👀 .
 
