@@ -3,9 +3,7 @@
 This micro controller (ATMega 328 for Arduino Uno model) based circuit board has a crystal of 16 MHz is used as the clock frequency generator.
 * Flash mem of 32k bytes (of which .5k is used for the bootloader),
 * SRAM   2k bytes,
-* EEPROM 1k byte
-
-![Read](https://store.arduino.cc/usa/arduino-uno-rev3)
+* EEPROM 1k byte [Read](https://store.arduino.cc/usa/arduino-uno-rev3)
 
 
 # MI Camera
