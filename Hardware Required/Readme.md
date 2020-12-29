@@ -4,7 +4,7 @@ This micro controller (ATMega 328 for Arduino Uno model) based circuit board has
 * Flash mem of 32k bytes (of which .5k is used for the bootloader),
 * SRAM   2k bytes,
 * EEPROM 1k byte
-![Read](https://store.arduino.cc/usa/arduino-uno-rev3)
+[Read](https://store.arduino.cc/usa/arduino-uno-rev3)
 
 # MI Camera
 
