@@ -1,4 +1,4 @@
-<h1> # Surviellance & Bomb Diffusion Robot with Rocker Bogie Mechanism Two way talk feature and Human Hand Gesture Controlled Robotic Arm with Internet based navigation and Gps monitoring system </h1>
+<h1>  Surviellance & Bomb Diffusion Robot with Rocker Bogie Mechanism Two way talk feature and Human Hand Gesture Controlled Robotic Arm with Internet based navigation and Gps monitoring system </h1>
 
 <p align="center"> DEV_Script_WOC_2020 </p>
 
