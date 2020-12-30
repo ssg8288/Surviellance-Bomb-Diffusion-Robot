@@ -78,12 +78,14 @@ desktop arm already comes with the following components:
 * 3 x flange bearing
 * 1 x gripper (in the claws of this gripper try attaching some blades so that it can act as an cutter while we are using it for defusing bombs).
 
+The arm should be assembled in this fashion.
+
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/43617730/103358351-66ec7d80-4adb-11eb-8156-ce24c569a367.png" alt="Browser Controlled Robotic Arm"/>
 </p>
 
-The arm should be assembled in this fashion.
+---
 
 <h3> Setting Up the Connections </h3>
 
