@@ -2,7 +2,7 @@
 
 ---
 
-<p align="center"> <b> Controller/Transmitter Wiring </b> </p>
+<p align="center"> <b> (Controller/Transmitter Wiring) </b> </p>
 
 
 
