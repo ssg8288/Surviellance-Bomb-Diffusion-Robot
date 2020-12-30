@@ -25,6 +25,16 @@ Arduino also simplifies the process of working with microcontrollers, but it off
 
 <h3> How Do I Use Arduino </h3>
 
-To as to get started: [see this guide](https://www.arduino.cc/en/Guide)
-To see project tutorials over a variety of them: [projects](https://create.arduino.cc/projecthub)
+To as to get started: [see this guide](https://www.arduino.cc/en/Guide).
+
+To see project over a variety of them: [projects](https://create.arduino.cc/projecthub).
+
+To see Tutorials: [Tutorial](https://www.arduino.cc/en/Tutorial/HomePage).
+
+To see Arduino Reference: [Read](https://www.arduino.cc/reference/en/).
+
+Arduino playground: [Read](https://playground.arduino.cc/).
+
+
+
 
