@@ -22,6 +22,7 @@ Arduino also simplifies the process of working with microcontrollers, but it off
 
 * Open source and extensible hardware - The plans of the Arduino boards are published under a Creative Commons license, so experienced circuit designers can make their own version of the module, extending it and improving it. Even relatively inexperienced users can build the breadboard version of the module in order to understand how it works and save money.
 
+---
 
 <h3> How Do I Use Arduino </h3>
 
@@ -35,6 +36,7 @@ To see Arduino Reference: [Read](https://www.arduino.cc/reference/en/).
 
 Arduino playground: [Read](https://playground.arduino.cc/).
 
+---
 
 Now as we got familiar with the Arduino and its concepts and working let's work on the prime objective of this project:
 
@@ -58,7 +60,7 @@ Tools and materials:
 * Male-female jumper wires (5 wires);
 * Arduino Mega. 
 
-Sain Smart 6-axis mechanical desktop arm already comes with the following components:
+desktop arm already comes with the following components:
 
 * Arduino Mega 2560 R3 
 * Control board shield
@@ -76,8 +78,7 @@ Sain Smart 6-axis mechanical desktop arm already comes with the following compon
 * 3 x flange bearing
 * 1 x gripper (in the claws of this gripper try attaching some blades so that it can act as an cutter while we are using it for defusing bombs).
 
-
-
+![2020-12-30 20_11_58-Wi-Fi Browser Controlled Robotic Arm (with Arduino and ESP8266) _ 8 Steps (with ](https://user-images.githubusercontent.com/43617730/103358351-66ec7d80-4adb-11eb-8156-ce24c569a367.png)
 
 
 
