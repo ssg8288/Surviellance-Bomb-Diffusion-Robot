@@ -90,3 +90,13 @@ The arm should be assembled in this fashion.
 <h3> Setting Up the Connections </h3>
 
 
+---
+
+<h3> Block Diagram </h3>
+
+<p align="center">
+<img src=" " alt=""/>
+</p>
+
+---
+
