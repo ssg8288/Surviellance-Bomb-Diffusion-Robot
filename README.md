@@ -12,7 +12,10 @@
 [![Forks](https://img.shields.io/github/forks/ssg8288/Surviellance-Bomb-Diffusion-Robot.svg?logo=github)](https://github.com/ssg8288/Surviellance-Bomb-Diffusion-Robot/network/members)
 [![Stargazers](https://img.shields.io/github/stars/ssg8288/Surviellance-Bomb-Diffusion-Robot.svg?logo=github)](https://github.com/ssg8288/Surviellance-Bomb-Diffusion-Robot/stargazers)
 [![Issues](https://img.shields.io/github/issues/ssg8288/Surviellance-Bomb-Diffusion-Robot.svg?logo=github)](https://github.com/ssg8288/Surviellance-Bomb-Diffusion-Robot/issues)
-[![Contributors](https://img.shields.io/github/contributors/ssg8288/Surviellance-Bomb-Diffusion-Robot.svg?logo=github)](https://img.shields.io/github/contributorsssg8288/Surviellance-Bomb-Diffusion-Robot)
+[![Contributors](https://img.shields.io/github/contributors/ssg8288/Surviellance-Bomb-Diffusion-Robot.svg?logo=github)](https://github.com/ssg8288/Surviellance-Bomb-Diffusion-Robot/contributors)
+
+
+
 
 
 
