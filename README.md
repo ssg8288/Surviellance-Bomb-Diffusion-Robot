@@ -1,6 +1,20 @@
-<h1>  Surviellance & Bomb Diffusion Robot with Rocker Bogie Mechanism Two way talk feature and Human Hand Gesture Controlled Robotic Arm with Internet based navigation and Gps monitoring system </h1>
+<h1>  Surviellance & Bomb Diffusion Robot with Rocker Bogie Mechanism Two way talk feature and Human Hand Gesture Controlled Robotic Arm with Internet based navigation and Gps monitoring system 💥 </h1>
 
 <p align="center"> DEV_Script_WOC_2020 </p>
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555)](https://www.linkedin.com/in/shubham-sen-gupta-932297178)
+[![top languages](https://img.shields.io/github/languages/top/ssg8288/Surviellance-Bomb-Diffusion-Robot)](https://github.com/ssg8288/Surviellance-Bomb-Diffusion-Robot/issues)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ssg8288/Surviellance-Bomb-Diffusion-Robot/issues)
+[![License](https://img.shields.io/github/license/ssg8288/Surviellance-Bomb-Diffusion-Robot?style=flat-square)](https://github.com/ssg8288/Surviellance-Bomb-Diffusion-Robot/)
+[![Forks](https://img.shields.io/github/forks/ssg8288/Surviellance-Bomb-Diffusion-Robot.svg?logo=github)](https://github.com/ssg8288/Surviellance-Bomb-Diffusion-Robot/network/members)
+[![Stargazers](https://img.shields.io/github/stars/ssg8288/Surviellance-Bomb-Diffusion-Robot.svg?logo=github)](https://github.com/ssg8288/Surviellance-Bomb-Diffusion-Robot/stargazers)
+[![Issues](https://img.shields.io/github/issues/ssg8288/Surviellance-Bomb-Diffusion-Robot.svg?logo=github)](https://github.com/ssg8288/Surviellance-Bomb-Diffusion-Robot/issues)
+[![Contributors](https://img.shields.io/github/contributors/ssg8288/Surviellance-Bomb-Diffusion-Robot.svg?logo=github)](https://img.shields.io/github/contributorsssg8288/Surviellance-Bomb-Diffusion-Robot)
+
+
 
 <h3> <b> Aim of the Project 🎯 </b> </h3>
 
