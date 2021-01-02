@@ -95,7 +95,7 @@ The arm should be assembled in this fashion.
 <h3> Block Diagram </h3>
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/72822597/103462209-a6b89c80-4d49-11eb-9d89-8716dbecd4ad.png" alt=""/>
+<img src="https://user-images.githubusercontent.com/72822597/103462209-a6b89c80-4d49-11eb-9d89-8716dbecd4ad.png" alt=" SPECIFIC BLOCK DIAGRAM for internet controlled robotic arm "/>
 </p>
 
 ---
