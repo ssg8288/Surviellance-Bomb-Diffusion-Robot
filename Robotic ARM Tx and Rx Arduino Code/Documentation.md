@@ -95,8 +95,14 @@ The arm should be assembled in this fashion.
 <h3> Block Diagram </h3>
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/72822597/103462209-a6b89c80-4d49-11eb-9d89-8716dbecd4ad.png" alt=" SPECIFIC BLOCK DIAGRAM for internet controlled robotic arm "/>
-</p>
+<img src="https://user-images.githubusercontent.com/72822597/103462209-a6b89c80-4d49-11eb-9d89-8716dbecd4ad.png" alt=" SPECIFIC BLOCK DIAGRAM for internet controlled robotic arm "/> 
+</p> 
 
----
-
+This system has two main parts which are the robotic arm and computer system. In this project, the Arduino is the
+controller of the entire system. Arduino will interface to the internet via an esp8266, which will enable the Arduino to interconnect to the internet via LAN cable. Then, any computer that has internet
+connection can access and control the robotic arm.
+To enable the robotic arm for connection via the internet, relay infrastructure is used. Relay infrastructure enable secure
+Web access to embedded systems behind a firewall or NAT.The operation of the robot starts with checking the servo
+motor and rotates to its initial position. When the servo motor is in its initial position, the controller will awaits for new
+command. The controller is embedded with a webserver written in HTML, when a computer access the controller, the
+computer will display a simple GUI that has been programmed inside the controller.
