@@ -105,7 +105,7 @@ Keep in mind this project is based on Arduino only.
 <img src="https://user-images.githubusercontent.com/43617730/103155499-92632580-47c6-11eb-8ea3-fb6ff95f12d6.png" alt="Upgraded Diagram"/>
 </p>
 ---
-<h3> <b> Languages used uptill now </b> </h3>
+<h3> <b> Languages used uptill now in this project</b> </h3>
 
 <img src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
 <img src="https://img.shields.io/badge/c++%20-%2300599C.svg?&style=for-the-badge&logo=c%2B%2B&ogoColor=white"/>
