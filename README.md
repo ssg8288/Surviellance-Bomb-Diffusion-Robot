@@ -7,9 +7,6 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555)](https://www.linkedin.com/in/shubham-sen-gupta-932297178)
 [![Top languages](https://img.shields.io/github/languages/top/ssg8288/Surviellance-Bomb-Diffusion-Robot)](https://github.com/ssg8288/Surviellance-Bomb-Diffusion-Robot/issues)
-<img src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
-<img src="https://img.shields.io/badge/c++%20-%2300599C.svg?&style=for-the-badge&logo=c%2B%2B&ogoColor=white"/>
-<img src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ssg8288/Surviellance-Bomb-Diffusion-Robot/issues)
 [![License](https://img.shields.io/github/license/ssg8288/Surviellance-Bomb-Diffusion-Robot?style=flat-square)](https://github.com/ssg8288/Surviellance-Bomb-Diffusion-Robot/)
 [![Forks](https://img.shields.io/github/forks/ssg8288/Surviellance-Bomb-Diffusion-Robot.svg?logo=github)](https://github.com/ssg8288/Surviellance-Bomb-Diffusion-Robot/network/members)
@@ -107,5 +104,10 @@ Keep in mind this project is based on Arduino only.
 <p align="center">
 <img src="https://user-images.githubusercontent.com/43617730/103155499-92632580-47c6-11eb-8ea3-fb6ff95f12d6.png" alt="Upgraded Diagram"/>
 </p>
+---
+<h3> <b> Languages used uptill now </b> </h3>
+<img src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/c++%20-%2300599C.svg?&style=for-the-badge&logo=c%2B%2B&ogoColor=white"/>
+<img src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
 
 <n> If you are willing to contribute in this open source project so, do mark your presence by contributing in it  ☺!! </n>
