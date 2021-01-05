@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="author" content="Igor Fonseca Albuquerque">
+<title>Control interface</title>
+
+<script src="jquery.js"></script>
+<script src="myscript1.js"></script>
+
+</head>
+
+<body>
+
+<h1> <b> Browser controlled 6-DOF Robotic Arm </b> </h1>
+
+<div style="margin: 0; width:500px; height:80px;">
+	<form name="myform2" action="" method="GET">
+		ESP8266 IP Address:
+		<input type="text" name="inputbox" value="192.168.0.9">
+	</form>
+</div>
+
+
+<table style="margin: 0; position: relative; top: 20px; left: 0px">
+	<tr>
+		<th>
+			<p style="margin: 0; position: relative; top: 0px; left: 0px; width:100px; height:20px;"> Servo 1 </p>
+			<input type="range" id="s1Range" min="0" max="180" value="90" onmouseup="moveSrs(s1Range.value, s2Range.value, s3Range.value, s4Range.value, s5Range.value, s6Range.value)" onchange="updateTextInput1(this.value)" style="margin: 0; position: relative; top: 10px; left: 0px; width:200px; height:40px;" />
+			<input type="text" id="s1textInput" value="90" style="margin: 0; position: relative; top: 10px; left: -10px; border: none;">
+		</th>
+
+		<th>
+			<p style="margin: 0; position: relative; top: 0px; left: 0px; width:100px; height:20px;"> Servo 2 </p>
+			<input type="range" id="s2Range" min="0" max="180" value="30" onmouseup="moveSrs(s1Range.value, s2Range.value, s3Range.value, s4Range.value, s5Range.value, s6Range.value)" onchange="updateTextInput2(this.value)" style="margin: 0; position: relative; top: 10px; left: 0px; width:200px; height:40px;" />
+			<input type="text" id="s2textInput" value="30" style="margin: 0; position: relative; top: 10px; left: -10px; border: none;">
+		</th>
+		
+		<th>
+			<p style="margin: 0; position: relative; top: 0px; left: 0px; width:100px; height:20px;"> Servo 3 </p>
+			<input type="range" id="s3Range" min="0" max="180" value="0" onmouseup="moveSrs(s1Range.value, s2Range.value, s3Range.value, s4Range.value, s5Range.value, s6Range.value)" onchange="updateTextInput3(this.value)" style="margin: 0; position: relative; top: 10px; left: 0px; width:200px; height:40px;" />
+			<input type="text" id="s3textInput" value="0" style="margin: 0; position: relative; top: 10px; left: -10px; border: none;">
+		</th>
+		
+		<th>
+			<p style="margin: 0; position: relative; top: 0px; left: 0px; width:100px; height:20px;"> Servo 4 </p>
+			<input type="range" id="s4Range" min="0" max="180" value="90" onmouseup="moveSrs(s1Range.value, s2Range.value, s3Range.value, s4Range.value, s5Range.value, s6Range.value)" onchange="updateTextInput4(this.value)" style="margin: 0; position: relative; top: 10px; left: 0px; width:200px; height:40px;" />
+			<input type="text" id="s4textInput" value="90" style="margin: 0; position: relative; top: 10px; left: -10px; border: none;">
+		</th>
+		
+		<th>
+			<p style="margin: 0; position: relative; top: 0px; left: 0px; width:100px; height:20px;"> Servo 5 </p>
+			<input type="range" id="s5Range" min="0" max="180" value="90" onmouseup="moveSrs(s1Range.value, s2Range.value, s3Range.value, s4Range.value, s5Range.value, s6Range.value)" onchange="updateTextInput5(this.value)" style="margin: 0; position: relative; top: 10px; left: 0px; width:200px; height:40px;" />
+			<input type="text" id="s5textInput" value="90" style="margin: 0; position: relative; top: 10px; left: -10px; border: none;">
+		</th>		
+		
+		<th>
+			<p style="margin: 0; position: relative; top: 0px; left: 0px; width:100px; height:20px;"> Servo 6 </p>
+			<input type="range" id="s6Range" min="0" max="180" value="45" onmouseup="moveSrs(s1Range.value, s2Range.value, s3Range.value, s4Range.value, s5Range.value, s6Range.value)" onchange="updateTextInput6(this.value)" style="margin: 0; position: relative; top: 10px; left: 0px; width:200px; height:40px;" />
+			<input type="text" id="s6textInput" value="45" style="margin: 0; position: relative; top: 10px; left: -10px; border: none;">
+		</th>		
+	</tr>
+</table>
+
+	<input type="button" id="button1" value="Add position to command stack" onClick="addCommand(s1textInput.value, s2textInput.value, s3textInput.value, s4textInput.value, s5textInput.value, s6textInput.value, delayValue.value)" style="position: relative; top:60px; height:40px;">
+	<input type="text" id="delayValue" value="1000" style="position: relative; top:60px; height:35px; width:50px;">
+	<p>
+
+<table style="margin: 0; position: relative; top: 80px; left: 0px; width:100%; height:80px;">
+	<tr><td>Command stack:</td></tr>
+		<tr>
+			<td>
+				<textarea id="inputTextToSave" cols="80" rows="14"></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<button onclick="runCommands(inputTextToSave.value)" style="height:40px;">Run command stack</button>
+				<button onclick="clearCommand()" style="height:40px;">Clear command stack</button>
+				<p>
+			</td>
+		</tr>
+		
+		<tr>
+			<td>Save file as:
+				<input id="inputFileNameToSaveAs"></input>
+				<button onclick="saveTextAsFile()">Save</button></td>
+				
+		</tr>
+		<tr>
+			<td>Open file:
+			<input type="file" id="fileToLoad"></input>
+			<button onclick="loadFileAsText()">Open</button></td>
+		</tr>
+</table>
+</body>
+</html>
