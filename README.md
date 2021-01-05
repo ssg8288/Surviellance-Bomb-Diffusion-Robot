@@ -7,7 +7,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555)](https://www.linkedin.com/in/shubham-sen-gupta-932297178)
 [![Top languages](https://img.shields.io/github/languages/top/ssg8288/Surviellance-Bomb-Diffusion-Robot)](https://github.com/ssg8288/Surviellance-Bomb-Diffusion-Robot/issues)
-[![Html](https://img.shields.io/badge/<HTML>-<33.5%>-<Orange>.svg)](https://shields.io/)
+[!HTML](https://img.shields.io/badge/HTML-33.5%25-orange)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ssg8288/Surviellance-Bomb-Diffusion-Robot/issues)
 [![License](https://img.shields.io/github/license/ssg8288/Surviellance-Bomb-Diffusion-Robot?style=flat-square)](https://github.com/ssg8288/Surviellance-Bomb-Diffusion-Robot/)
 [![Forks](https://img.shields.io/github/forks/ssg8288/Surviellance-Bomb-Diffusion-Robot.svg?logo=github)](https://github.com/ssg8288/Surviellance-Bomb-Diffusion-Robot/network/members)
