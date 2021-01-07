@@ -1,5 +1,3 @@
-// Browser controlled robotic arm by Igor Fonseca Albuquerque
-
 //Include libraries
 #include <Servo.h>
 
