@@ -89,6 +89,9 @@ The arm should be assembled in this fashion.
 
 <h3> Setting Up the Connections </h3>
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/43617730/104185574-2d9d0180-543b-11eb-80b7-ec2300d01c4b.png" alt="circuit diagram"/>
+</p>
 
 ---
 
