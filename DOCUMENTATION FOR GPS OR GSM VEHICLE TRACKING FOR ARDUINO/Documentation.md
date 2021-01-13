@@ -2,11 +2,15 @@
 
 Vehicle tracking is a process in which a vehicle is located in terms os longitude and latitude. This technology is frequently used by the police department and also can be used easily by common people as the machines that we get in market are expensive. Here, we will go ahead using GPS and GSM along with Arduino. This system has a wide range of applications as it is completely reliable and efficient.
 
+______
+
 # What is GPS?
 The Global Positioning System, is a satellite-based radionavigation system owned by the United States government. It determines exact geographical locations which also provides velocity and time synchronization. It is used by military or civilians.
 
 # What is GSM?
 Global systems for Mobile communication (GSM) describes the standard protocal for second generation (2G) cellular networks. It is developed by the European Telecommunications Standards Institute. Its data services operate at the 850MHz, 900MHz, 1800MHz, and 1900MHz frequency bands. GSM technology was developed as a digital system using the time division multiple access (TDMA) technique for communication purposes.
+
+________
 
 ## Read Further:
 
@@ -18,6 +22,8 @@ Global systems for Mobile communication (GSM) describes the standard pr
 
     4. Resources
 
+______
+
 ## Things You'll Need
 
 1. GPS Module 
@@ -27,6 +33,8 @@ Global systems for Mobile communication (GSM) describes the standard pr
 5. Connecting wires
 6. 10 K POT
 7. [Arduino Software]([Python](https://www.python.org/downloads/)) 
+
+______
 
 ## Getting Started
 
@@ -47,6 +55,7 @@ Connect all the things as shown in the diagram given below.
 * Upload the code on the modules after selecting the native port 0 on the arduino software. After uploading, it will show initial longitude and latitude co-ordinates respectively. 
 * Start texting from your PC to your phone. To request location, just enter "location" on the chat tab of your phone and send it. Within a few seconds, you will receive SMS with location, mobile number, date and time.
 
+______
 
 ## FAQ
 
@@ -56,6 +65,10 @@ Connect all the things as shown in the diagram given below.
 2. Can we change mobile number more than once?
    Yes you can. 
 
+______
+
 ## Resources:
 
 ```https://circuitdigest.com/microcontroller-projects/vehicle-tracking-system-using-arduino-gps-and-gsm```
+
+______
