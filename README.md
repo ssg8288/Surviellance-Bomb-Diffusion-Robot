@@ -118,7 +118,7 @@ Keep in mind this project is based on Arduino only.
   <tr>
     <td>
         <a href="https://github.com/ssg8288/Surviellance-Bomb-Diffusion-Robot/graphs/contributors">
-            <img src="https://contrib.rocks/image?repo=vaibhavirohilla741/Operationalizing-ML" />
+            <img src="https://user-images.githubusercontent.com/43617730/104956271-cf02f500-59f1-11eb-92ee-12e115af0bd5.png" />
         </a>
     </td>
    </tr>
