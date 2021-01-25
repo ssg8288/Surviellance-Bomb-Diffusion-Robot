@@ -102,7 +102,7 @@ Keep in mind this project is based on Arduino only.
 
 
 <p align="center">
-<img src="https://github.com/ShubhamPatel33/Surviellance-Bomb-Diffusion-Robot/blob/main/Robotic%20ARM%20Tx%20and%20Rx%20Arduino%20Code/Block%20diagram_Surviellance.png" alt="Upgraded Diagram"/>
+<img src="https://github.com/ShubhamPatel33/Surviellance-Bomb-Diffusion-Robot/blob/main/Crawler/Block%20diagram_Surviellance.png?raw=true" alt="Upgraded Diagram_2"/>
 </p>
 ---
 <h3> <b> Languages used uptill now in this project</b> </h3>
