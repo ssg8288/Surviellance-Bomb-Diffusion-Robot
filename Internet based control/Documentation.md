@@ -5,7 +5,7 @@ Refer the top Right
 <p align="center">
 <img src="https://github.com/ShubhamPatel33/Surviellance-Bomb-Diffusion-Robot/blob/main/Crawler/Block%20diagram_Surviellance.png?raw=true" alt="Upgraded Diagram_2"/>
 </p>
-<b><h3>How we had made it possibel?</h3></b>
+<b><h3>How we had made it possible?</h3></b>
 By using a Electric imp module ,we have connected Arduino and the crawler circuit with the internet so that we don't need to rely on any other module and also the rande dosen't become
 and boundries of this Crawler.
 <h3>Steps of Controling the rover</h3>
